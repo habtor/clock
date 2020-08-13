@@ -20,3 +20,23 @@ function setRotation(element, rotationRatio) {
 }
 
 setClock()
+
+// ============================= Themes ===============================
+
+let theme_dots = document.getElementsByClassName("theme_circles")
+
+for (let i = 0; theme_dots.length > i; i++) {
+    theme_dots[i].addEventListener('click', function () {
+        let theme = this.dataset.theme
+        set_theme(theme)
+    })
+}
+
+function set_theme(theme) {
+    if (theme == "dark") {
+        document.getElementById("theme_style").href = "dark.css"
+    }
+    if (theme == "lightt") {
+        document.getElementById("theme_style").href = "light.css"
+    }    
+}
