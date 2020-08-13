@@ -9,7 +9,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     overflow: hidden;
     background: #091921;
 }
@@ -21,7 +20,7 @@ body {
 
 .btns {
     display: flex;
-    margin: -200px auto 100px;
+    margin: 100px auto 100px;
     justify-content: space-between;
 }
 
