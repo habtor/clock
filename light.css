@@ -5,19 +5,13 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
+.light {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
     background: #cacaca;
 }
-
-body .light {
-    background: rgb(255, 255, 255);
-}
-
-
 
 .clock {
     width: 350px;

@@ -5,17 +5,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    background: #091921;
-}
-
 .light {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #091921;
 }
 
 .btns {
