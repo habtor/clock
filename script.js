@@ -21,6 +21,9 @@ function setRotation(element, rotationRatio) {
 
 setClock()
 
+
+// ============================================ Thems ===================
+
 // ============================= Themes ===============================
 
 let theme_dots = document.getElementsByClassName("theme_circles")
