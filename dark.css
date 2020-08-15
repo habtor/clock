@@ -212,4 +212,21 @@
 .clock .hand.second, .sc {
     width: 230px;
     height: 230px;
+    animation-duration: 60s;
+}
+
+.animate {
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
